@@ -17,7 +17,7 @@ public class Controller extends AbstractController {
 	protected ModelAndView handleRequestInternal(HttpServletRequest arg0,
 			HttpServletResponse arg1) throws Exception {
 		ModelAndView model=new ModelAndView("Hellopage");
-		model.addObject("welcome","Hello Welcome to my basic Spring MVC project");
+		model.addObject("welcome","Hello Welcome to my basic Spring MVC project first change");
 		return model;
 	}
 	
